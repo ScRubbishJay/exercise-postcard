@@ -8,8 +8,10 @@ body {
 	border: 2px black solid;
 	border-radius: 5px;
 	margin: 33% auto;
-	max-width: 800px;
+	max-width: 500px;
+  padding: 20px;
 }
+
 .banner {
 	display: flex;
 	justify-content: space-between;
@@ -19,6 +21,7 @@ body {
 .cardmain {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 }
 .button {
 	margin: 0 auto;
@@ -27,4 +30,8 @@ body {
 .input {
 	display: flex;
 	flex-direction: column;
+}
+
+.para {
+	padding-right: 2em;
 }
